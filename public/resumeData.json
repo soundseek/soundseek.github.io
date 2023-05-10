@@ -1,0 +1,136 @@
+{
+  "main": {
+    "firstname":"Echo",
+    "lastname": "Lair",
+    "description":"AI assisted tool for the people who need",
+    "currentroles": "Music Engine",
+    "prevroles": "Content Creator",
+    "image":"profilepic.png",
+    "bio":"Lorem Ipsumxx",
+    "contactmessage":"To get in contact with me, reach out on LinkedIn or via email!",
+    "email": "teamsoundseek@gmail.com",
+    "github":"https://github.com/soundseek",
+    "linkedin":"https://www.linkedin.com/in/ahmedhamodi/",
+    "website": "https://ahmedhamodi.com/",
+    "linkedinurl": "https://www.linkedin.com/in/ahmedhamodi/",
+    "social":[
+      {
+        "name":"email",
+        "url":"mailto:ahmed.r.hamodi@gmail.com",
+        "className":"fa fa-envelope fa-2x mb-3"
+      },
+      {
+        "name":"github",
+        "url":"https://github.com/ahmedhamodi",
+        "className":"fa fa-github fa-2x mb-3"
+      },
+      {
+        "name":"linkedin",
+        "url":"https://www.linkedin.com/in/ahmedhamodi",
+        "className":"fa fa-linkedin fa-2x mb-3"
+      },
+      {
+        "name":"devpost",
+        "url":"https://devpost.com/ahmedhamodi",
+        "className":"fa fa-code fa-2x mb-3"
+      }
+    ]
+  },
+  "resume":{
+    "skillmessage":"Below is a quick summary of my relevant skills.",
+    "education":[
+      {
+        "school":"University of Waterloo",
+        "degree":"Bachelor of Software Engineering",
+        "graduated":"SEP 2017 - APR 2022",
+        "description":"Elected as Academic Class Rep every term. Cumulative GPA of 86%. Played intramural sports including soccer, basketball & volleyball."
+      },
+      {
+        "school":"Bluevale Collegiate Institute",
+        "degree":"Ontario Scholar",
+        "graduated":"SEP 2013 - JUN 2017",
+        "description":"98% grade 12 average. Cumulative average of 96%. Leader of Electric Car Club, Fed Prov, and the peer tutoring group."
+      }
+    ],
+    "work":[
+      {
+        "company":"Meta",
+        "title":"Incoming Software Engineer",
+        "years":"SEP 2022 - Present",
+        "description":"",
+        "parttime":false
+      },
+      {
+        "company":"Wish",
+        "title":"Associate Product Manager Intern",
+        "title2":"Associate Product Manager Intern",
+        "years":"SEP 2021 - DEC 2021",
+        "years2":"DEC 2021 - APR 2022",
+        "description":"Defining product vision for Wish's shipping label generation service and returns program. Led the launch of the shipping label generation service in the Merchant Dashboard and helped with the processing of special characters that may be found in labels generated around the world.",
+        "description2":"Defining Merchant-side experience with Tax Compliance in Indonesia, Columbia, and Chile. Working on improving the Merchant's experience with Wish's return program.",
+        "parttime":false,
+        "parttime2":true
+      },
+      {
+        "company":"Facebook",
+        "title":"Software Engineering Intern",
+        "years":"JAN 2021 - APR 2021",
+        "description":"Created scripts to query large scale data and automatically send emails to over 1000 customers a week. Created an organizational tool for performing bulk operations on Oculus and Portal orders. Lastly, implemented the first SHOP universe search bar in React to be used in bulk processing tool.",
+        "parttime":false
+      },
+      {
+        "company":"Tealbook",
+        "title":"Software Engineering Intern",
+        "title2":"Technical Sales Support Specialist",
+        "years":"MAY 2020 - AUG 2020",
+        "years2":"NOV 2020 - DEC 2020",
+        "description":"Implemented achievement based system using React and Node.js which highlights key metrics of a user (including profile views, searches performed, RFIs created, etc) to encourage user engagement and drive activity. Improved registration flow logic to reduce sign-up time by 90% and customer support time by 50%.",
+        "description2":"Assisting the sales agents through the creation of a security assessment dataset, saving ~10 hours of human time per week.",
+        "parttime":false,
+        "parttime2":true
+      },
+      {
+        "company":"JSI Telecom",
+        "title":"Software Engineering Intern",
+        "years":"SEP 2019 - DEC 2019",
+        "description":"Designed an architectural proposal analyzing the structure and mapping of a new database format. Developed a database parser to extract models and relationships from SQLite using ETL principles. Lastly, created a nuget package that standardizes error and exception handling across parsers in C#.",
+        "parttime":false
+      },
+      {
+        "company":"Condos.ca",
+        "title":"Full Stack Engineering Intern",
+        "years":"JAN 2019 - APR 2019",
+        "description":"Saved 2.5 hours of daily computation time through tracking run seeders and migrations in MySQL. Reduced page load time by 80% through implementing analytic caching on key metrics and pages. Lastly, integrated Google Adwords for generation of customizable & large-scale ad campaigns in PHP.",
+        "parttime":false
+      },
+      {
+        "company":"OpenText",
+        "title":"Software Engineering Intern",
+        "years":"MAY 2018 - AUG 2018",
+        "description":"Developed and trained a predictive neural network with TensorFlow that determines program failures based on file differences in exported data, operating at 95% accuracy and 90% recall.",
+        "parttime":false
+      }
+    ],
+    "leadership":[
+      {
+        "company":"DecisionHub",
+        "title":"Co-Founder",
+        "years":"JAN 2021 - Present",
+        "description":"Co-Founded a technology startup focused on efficient and bias-free process management for application collection. Currently focused on the grant and community investment sector.",
+        "parttime":false
+      },
+      {
+        "company":"UW Blueprint",
+        "title":"President",
+        "years":"SEP 2021 - APR 2022",
+        "description":"Led a 110-person student club that builds technology for social good. Responsibilities include setting the direction of the club, upholding club values and mission, managing day-to-day operations of the executive team, among others."
+      },
+      {
+        "company":"Calgary Distress Center",
+        "title":"Project Lead",
+        "years":"SEP 2020 - APR 2022",
+        "description":"Led the design and development of a 3D interactive experience using Aframe, React, and Tornado. Responsibilities include managing the task board in Notion, running weekly standup & work sessions, and having 1:1s with developers and designers."
+      }
+    ]
+  }
+}

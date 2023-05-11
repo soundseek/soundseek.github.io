@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Echolair</title>
+	<!-- Link to CSS file for styling -->
+	<link rel="stylesheet" href="style.css">
+	<!-- Link to JavaScript file for smooth scrolling -->
+	<script src="script.js"></script>
+</head>
+<body>
+    <!-- Add top bar with links to sections -->
+	<nav>
+		<ul>
+			<li><a href="#vision">Vision</a></li>
+			<li><a href="#mission">Mission</a></li>
+			<li><a href="#team">People</a></li>
+			<li><a href="#backing">Backing</a></li>
+			<li><a href="#contact">Let's talk</a></li>
+		</ul>
+	</nav>
+    
+    <header id="vision">
+        <h1 class="animate__animated animate__fadeInDown"><span>Echo</span><span>lair</span></h1>
+        <h2 class="animate__animated animate__fadeInUp">Efficient workflow for sound creation, organization, and replication for music producers and sound designers.</h2>
+    </header>
+
+    <section id="mission">
+        <h2 class="animate__animated animate__fadeInUp">Our Mission</h2>
+        <div class="mission-content">
+            <p class="animate__animated animate__fadeInLeft">At Echolair, we believe in making sound creation and organization simple and intuitive. Our mission is to empower producers and sound designers with cutting-edge AI and machine learning technologies that enable them to create and manage sounds effortlessly.</p>
+            <p class="animate__animated animate__fadeInRight">We strive to provide a comprehensive solution for all sound-related needs, including search and retrieval, library management, and sound replication. Our ultimate goal is to revolutionize the sound production industry by providing a streamlined, efficient workflow that allows creators to focus on what they do best - making music.</p>
+        </div>
+    </section>
+    
+
+
+    <section id="team">
+        <h2>Meet Our Team</h2>
+        <div class="team-container">
+            <div class="team-member">
+            <img src="https://randomuser.me/api/portraits/women/43.jpg" alt="Jay Anand">
+            <h3>Jay Anand</h3>
+            <h4>Co-founder and CEO</h4>
+            <p><a href="https://www.linkedin.com/in/jayanand18/">LinkedIn</a> | <a href="mailto:mail.jayanand18@gmail.com">Email</a></p>
+            </div>
+            <div class="team-member">
+            <img src="https://randomuser.me/api/portraits/men/10.jpg" alt="Saisamarth Rajesh Phaye">
+            <h3>Saisamarth Rajesh Phaye</h3>
+            <h4>Co-founder and CTO</h4>
+            <p><a href="https://www.linkedin.com/in/ssrp/">LinkedIn</a> |  
+            <a href="mailto:phaye.samarth@gmail.com">Email</a></p>
+            </div>
+            <div class="team-member">
+            <img src="https://randomuser.me/api/portraits/women/7.jpg" alt="Mahshid Alinoori">
+            <h3>Mahshid Alinoori</h3>
+            <h4>Co-founder and CIO</h4>
+            <p><a href="https://www.linkedin.com/in/mahshid-alinoori/">LinkedIn</a> | <a href="mailto:mahshid.alinoori@gmail.com">Email</a></p>
+            </div>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <h2>Mentors | Advisors | Supporters</h2>
+        <div class="team-container">
+            <div class="team-member">
+            <img src="https://randomuser.me/api/portraits/women/43.jpg" alt="Einar Helde">
+            <h3>Einar Helde</h3>
+            <h4>Co-Founder of AIMS API</h4>
+            <p><a href="https://www.linkedin.com/in/jayanand18/">LinkedIn</a><br>
+            </div>
+            <div class="team-member">
+            <img src="https://randomuser.me/api/portraits/men/10.jpg" alt="Pietro Giola">
+            <h3>Pietro Giola</h3>
+            <h4>Founder & CEO at Machiavelli Music</h4>
+            <p><a href="https://www.linkedin.com/in/pietrogiola/">LinkedIn</a><br>
+            </div>
+            <div class="team-member">
+            <img src="https://randomuser.me/api/portraits/women/7.jpg" alt="Stella Tavella">
+            <h3>Stella Tavella</h3>
+            <h4>Sr. AI Engineer & Manager at Musixmatch</h4>
+            <p><a href="https://www.linkedin.com/in/mahshid-alinoori/">LinkedIn</a><br>
+            </div>
+            <div class="team-member">
+            <img src="https://randomuser.me/api/portraits/women/7.jpg" alt="Trevor Hinesley">
+            <h3>Trevor Hinesley</h3>
+            <h4>Founder & CTO at Soundstripe</h4>
+            <p><a href="https://www.linkedin.com/in/mahshid-alinoori/">LinkedIn</a><br>
+            </div>
+        </div>
+
+
+        </section>
+        
+        <section id="backing">
+            <div class="container">
+                <h2>Support</h2>
+                <div class="logos">
+                    <a href="https://thesoundofai.com/accelerator.html">
+                        <img src="tsoai-logo.png" alt="TSOAI Accelerator Logo">
+                    </a>
+                    <a href="https://aws.amazon.com/activate/">
+                        <img src="aws-activate-logo.png" alt="Amazon Activate Logo">
+                    </a>
+                </div>
+            </div>
+            <p>We are proud to be backed by the <a href="https://thesoundofai.com/accelerator.html">TSOAI Accelerator</a>, led by <a href="https://www.linkedin.com/in/valeriovelardo">Valerio Velardo</a>. <br>Additionally, we are supported by AWS Activate with $25,000 worth of credits for pre-seed startups.</p>
+            
+        </section>
+        
+        
+    
+	<section id="contact">
+		<h2>Let's Connect!</h2>
+		<p>Email us at <a href="mailto:teamsoundseek@gmail.com">teamsoundseek@gmail.com</a> to learn more.</p>
+	</section>
+    
+    <footer style="background-color: transparent; color: #333; padding: 0px; margin: 0px; text-align: center;">
+        <p style="font-size: 14px;">&copy; 2023 Echolair</p>
+    </footer>
+    
+
+    <script>
+        // Smooth scrolling
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+    
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+
+</body>
+</html>

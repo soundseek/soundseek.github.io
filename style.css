@@ -168,6 +168,12 @@ nav a.active {
 	margin-top: 0;
 }
 
+#vision h3 {
+	font-size: 1.4em;
+  text-decoration-color: #f5f5f5;
+	margin-top: 0;
+}
+
 .animate__animated {
 	animation-duration: 1s;
 	animation-fill-mode: both;
